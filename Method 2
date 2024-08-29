@@ -1,0 +1,10 @@
+while (curr_sum <= sum && j < n)
+      curr_sum += a[j++];
+Now, run another while loop as,
+
+while (curr_sum > x && start < n) {
+            // Update minimum length if needed
+            if (j - i < min_length)
+                min_length = j - i
+            curr_sum -= a[i++];
+ }
